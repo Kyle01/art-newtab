@@ -1,0 +1,22 @@
+{
+    "name": "Art Splash",
+    "version": "0.0.1",
+    "description": "Learn about famous art in your new splash page",
+    "permissions": [
+        "declarativeContent",
+        "storage",
+        "activeTab",
+        "tabs"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    },
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    },
+    "options_page": "options.html",
+    "manifest_version": 2
+}
