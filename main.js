@@ -1,3 +1,4 @@
-document.addEventListener("DOMContentLoaded", () => {
-    console.log("Hello world! from main")
-});
+const namer = document.getElementById("name");
+
+
+namer.innerHTML("Hello world!");

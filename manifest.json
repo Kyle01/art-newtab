@@ -10,9 +10,9 @@
     ],
     "background": {
         "scripts": [
-            "background.js"
+            "main.js"
         ],
-        "persistent": false
+        "persistent": true
     },
     "chrome_url_overrides": {
         "newtab": "index.html"
